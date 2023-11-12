@@ -46,7 +46,7 @@
     <link href="../lib/typicons.font/typicons.css" rel="stylesheet">
 
     <!-- azia CSS -->
-    <link rel="stylesheet" href="../css/azia.css">
+    <link rel="stylesheet" href="../assets/css/azia.css">
 
   </head>
   <body class="az-body">
@@ -97,9 +97,9 @@
     <script src="../lib/jquery/jquery.min.js"></script>
     <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../lib/ionicons/ionicons.js"></script>
-    <script src="../js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="../assets/js/jquery.cookie.js" type="text/javascript"></script>
 
-    <script src="../js/azia.js"></script>
+    <script src="../assets/js/azia.js"></script>
     <script>
       $(function(){
         'use strict'

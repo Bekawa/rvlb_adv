@@ -27,7 +27,7 @@
   <link href="../lib/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
 
   <!-- azia CSS -->
-  <link rel="stylesheet" href="../css/azia.css">
+  <link rel="stylesheet" href="../assets/css/azia.css">
 
 </head>
 
@@ -732,10 +732,10 @@
   <script src="../lib/chart.js/Chart.bundle.min.js"></script>
   <script src="../lib/peity/jquery.peity.min.js"></script>
 
-  <script src="../js/azia.js"></script>
-  <script src="../js/chart.flot.sampledata.js"></script>
-  <script src="../js/dashboard.sampledata.js"></script>
-  <script src="../js/jquery.cookie.js" type="text/javascript"></script>
+  <script src="../assets/js/azia.js"></script>
+  <script src="../assets/js/chart.flot.sampledata.js"></script>
+  <script src="../assets/js/dashboard.sampledata.js"></script>
+  <script src="../assets/js/jquery.cookie.js" type="text/javascript"></script>
   <script>
     $(function() {
       'use strict'

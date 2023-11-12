@@ -1,3 +1,9 @@
+<?php
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +17,7 @@
   <meta name="description" content="Responsive Bootstrap 4 Dashboard Template">
   <meta name="author" content="BootstrapDash">
 
-  <title>Azia Responsive Bootstrap 4 Dashboard Template</title>
+  <title>Sing In</title>
 
   <!-- vendor css -->
   <link href="../lib/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -19,7 +25,7 @@
   <link href="../lib/typicons.font/typicons.css" rel="stylesheet">
 
   <!-- azia CSS -->
-  <link rel="stylesheet" href="../css/azia.css">
+  <link rel="stylesheet" href="../assets/css/azia.css">
 
 </head>
 
@@ -37,17 +43,27 @@
         <h2>Welcome back!</h2>
         <h4>Please sign in to continue</h4>
 
-        <form action="index.html">
+
+
+
+        <form action="../controller/Authentication.php" method="post">
           <div class="form-group">
             <label>Email</label>
-            <input type="text" class="form-control" placeholder="Enter your email" value="demo@bootstrapdash.com">
-          </div><!-- form-group -->
+            <input type="text" class="form-control" placeholder="Enter your email" name="usr_email" id="usr_mail">
+          </div>
           <div class="form-group">
             <label>Password</label>
-            <input type="password" class="form-control" placeholder="Enter your password" value="thisisademo">
-          </div><!-- form-group -->
-          <button class="btn btn-az-primary btn-block"> <a href="./index.php" >Sign In</a></button>
+            <input type="password" class="form-control" placeholder="Enter your password" value="" name="usr_password" id="usr_pass">
+          </div>
+          <input type="submit" value="Signin" class="btn btn-az-primary btn-block name" name="login"> 
         </form>
+
+       
+
+
+
+
+
       </div><!-- az-signin-header -->
       <div class="az-signin-footer">
         <p><a href="">Forgot password?</a></p>
@@ -58,10 +74,10 @@
   <script src="../lib/jquery/jquery.min.js"></script>
   <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../lib/ionicons/ionicons.js"></script>
-  <script src="../js/jquery.cookie.js" type="text/javascript"></script>
-  <script src="../js/jquery.cookie.js" type="text/javascript"></script>
+  <script src="../assets/js/jquery.cookie.js" type="text/javascript"></script>
+  <script src="../assets/js/jquery.cookie.js" type="text/javascript"></script>
 
-  <script src="../js/azia.js"></script>
+  <script src="../assets/js/azia.js"></script>
   <script>
     $(function() {
       'use strict'

@@ -19,7 +19,7 @@
   <link href="../lib/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
 
   <!-- azia CSS -->
-  <link rel="stylesheet" href="../css/azia.css">
+  <link rel="stylesheet" href="../assets/css/azia.css">
 
 </head>
 
@@ -35,62 +35,83 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="az-header">
     <div class="container-fluid">
+      
       <div class="az-header-left">
         <a href="index.html" class="az-logo"><span></span></a>
-
-
-
-
         <img class="me-2 mb-1" src="../Storage/img/mowe_logo.jpg" width="32px" height="40px" >&nbsp;
-
-
         <div class="az-logo">
           <h2 class="az-logo-title">Ministry Of Water and Energy</h2>
           <p class="az-dashboard-text">FDRE | የኢትዮጵያ ፌደራላዊ ዴሞክራሲያዊ ሪፐብሊክ</p>
         </div>
-
-
-
-
-
-
-
-
-
-
-
         <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
       </div>
+
+
       <div class="az-header-menu">
+
         <div class="az-header-menu-header">
-
           <img class="me-2" src="../Storage/img/mowe_logo.jpg" width="22px" height="30px" >
-
           <div class="az-logo">
-
             <h2 class="az-logo-title-mobile">Ministry Of Water and Energy</h2>
             <p class="az-dashboard-text-mobile">FDRE | የኢትዮጵያ ፌደራላዊ ዴሞክራሲያዊ ሪፐብሊክ</p>
           </div>
-
           <a href="" class="ml-2 mb-2 close">&times;</a>
         </div>
 
-
         <ul class="nav">
 
-
-          <li class="nav-item active show">
+          <li class="nav-item ">
             <a href="index.php" class="nav-link"><i class="typcn typcn-chart-area-outline"></i> Dashboard</a>
           </li>
-
-
+          
           <li class="nav-item ">
             <a href="Documents.php" class="nav-link"><i class="far fa-file-alt"></i>&nbsp; Documentation</a>
           </li>
-
-
+          
           <li class="nav-item">
             <a href="" class="nav-link with-sub"><i class="typcn typcn-document"></i> Pages</a>
             <nav class="az-menu-sub">
@@ -99,19 +120,13 @@
             </nav>
           </li>
 
-
-
           <li class="nav-item">
             <a href="chart-chartjs.html" class="nav-link"><i class="typcn typcn-chart-bar-outline"></i> Charts</a>
           </li>
 
-
-
           <li class="nav-item">
             <a href="form-elements.html" class="nav-link"><i class="typcn typcn-chart-bar-outline"></i> Forms</a>
           </li>
-
-
 
           <li class="nav-item">
             <a href="" class="nav-link with-sub"><i class="typcn typcn-book"></i> Components</a>
@@ -129,8 +144,9 @@
             </div>
           </li>
 
-
         </ul>
+
+
       </div>
       <div class="az-header-right">
         <a href="https://www.bootstrapdash.com/demo/azia-free/docs/documentation.html" target="_blank" class="az-header-search-link"><i class="far fa-file-alt"></i></a>
@@ -200,6 +216,48 @@
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -635,10 +693,10 @@
   <script src="../lib/chart.js/Chart.bundle.min.js"></script>
   <script src="../lib/peity/jquery.peity.min.js"></script>
 
-  <script src="../js/azia.js"></script>
-  <script src="../js/chart.flot.sampledata.js"></script>
-  <script src="../js/dashboard.sampledata.js"></script>
-  <script src="../js/jquery.cookie.js" type="text/javascript"></script>
+  <script src="../assets/js/azia.js"></script>
+  <script src="../assets/js/chart.flot.sampledata.js"></script>
+  <script src="../assets/js/dashboard.sampledata.js"></script>
+  <script src="../assets/js/jquery.cookie.js" type="text/javascript"></script>
   <script>
     $(function() {
       'use strict'

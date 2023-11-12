@@ -1,17 +1,14 @@
-<?php 
+<?php
 
 class Connection
 {
-    private $connection = null;
-    public function __construct()
+ //   private $connection = null;
+    public function Connection_func()
     {
-        $this->connection = new mysqli(Db_host,Db_username,Db_password,Db_name);
-        if ($this->connection->connect_error) {
-            die(" dcasdv   ". $this->connection->connect_error);
-
+        $connection = new mysqli(Db_host, Db_username, Db_password, Db_name);
+        if ($connection->connect_error) {
+            die("Database Connection Error");
         }
-        else {
-            echo "successfully connected";
-        }
-
-    }}
+        return $connection;
+    }
+}
